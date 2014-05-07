@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slimbox2.js">
+    onload=function() {
+
+ 
+        $('#lbCenter').width($(window).width()).height($(window).height());
+    }
+    </script>
+    <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
+</head>
+<body>
+<p>original -> green channel -> median blur -> contrast expansion -> otsu's method</p>
